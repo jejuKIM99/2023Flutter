@@ -52,7 +52,7 @@ class _RadioListTestState extends State<RadioListTest> {
     gender = value;
     });
     RadioListTile(
-    title: Text('WoMan'),
+    title: Text('Woman'),
     value: Gender.WOMAN,
     groupValue: gender,
     onChanged:(value){
